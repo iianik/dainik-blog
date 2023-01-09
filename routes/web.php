@@ -23,6 +23,6 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        return view('backend.backend-master');
     })->name('dashboard');
 });
